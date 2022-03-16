@@ -1,0 +1,104 @@
+.Login {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey;
+    color: gold; */
+    height: 100vh;
+}
+
+.Login .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* border: 2px dashed green; */
+}
+
+.Login .title p {
+    flex: 1;
+    line-height: 0.4em;
+}
+
+.Login .title img {
+    flex: 1;
+}
+
+.Login .logo {
+    flex: 1;
+    max-height: 4vh;
+    max-width: 4vh;
+}
+
+.Login .mainContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+/* border: 2px red solid; */
+}
+
+.Login .leftColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1.4;
+/* border: 2px orange solid; */
+}
+
+.Login .rightColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+/* border: 2px orange solid; */
+}
+
+
+.Login .friendsBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 16vh;
+/* border: 2px goldenrod solid; */
+}
+
+
+.Login .loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 8vh;
+    box-shadow: 8px 8px 16px #767696;
+    border: 2px black solid;
+    border-radius: 4px;
+    width: 660px;
+    height: 890px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Login .friendsElementBox {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    max-width: 7vh;
+    margin-top: 4px;
+    margin-bottom: 1px;
+
+    /* margin-left: 1vh;
+    margin-right: 1vh; */
+    /* border: 2px green solid; */
+}
+
+.Login .form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.photo-container img {
+    width: 90%;
+}

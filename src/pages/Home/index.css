@@ -1,13 +1,13 @@
-.App {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    /* background-color: grey;
-    color: gold; */
-    height: 100vh;
-  }
+  .Home {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        /* background-color: grey;
+        color: gold; */
+        height: 100vh;
+    }
   
-  .App header {
+  .Home header {
     display: flex;
     /* font-family: 'Inter', sans-serif;
     color: white;
@@ -26,7 +26,7 @@
     /* border: 2px red solid; */
   }
   
-  .App .mainContainer {
+  .Home .mainContainer {
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -34,14 +34,14 @@
     /* border: 2px red solid; */
   }
   
-  .App .leftColumn {
+  .Home .leftColumn {
     display: flex;
     flex-direction: column;
     flex: 1.4;
     /* border: 2px orange solid; */
   }
   
-  .App .rightColumn {
+  .Home .rightColumn {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -49,7 +49,7 @@
   }
   
   
-  .App .friendsBox {
+  .Home .friendsBox {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,7 +57,7 @@
     /* border: 2px goldenrod solid; */
   }
   
-  .App .friendsEmptySpace {
+  .Home .friendsEmptySpace {
     /* width: 200px;
     height: 200px; */
     flex: 1;
@@ -65,7 +65,7 @@
     /* border: 2px green dashed; */
   }
   
-  .App .friendsHeadlineContainer {
+  .Home .friendsHeadlineContainer {
     display: flex;
     width: 8vh;
     box-shadow: 8px 8px 16px #767696;
@@ -77,7 +77,7 @@
     justify-content: space-around;
   }
   
-  .App .friendsElementBox {
+  .Home .friendsElementBox {
     display: flex;
     flex-direction: column;
     height: 10vh;
@@ -90,11 +90,11 @@
     /* border: 2px green solid; */
   }
   
-  .App .friendsElementBox p {
+  .Home .friendsElementBox p {
     margin-bottom: 4px;
   }
   
-  .App .feedBox {
+  .Home .feedBox {
     /* flex-direction: row; */
     display: flex;
     flex: 1;
@@ -102,7 +102,7 @@
     /* border: 2px goldenrod solid; */
   }
   
-  .App .feedElementBox {
+  .Home .feedElementBox {
     /* flex-direction: column; */
     display: flex;
     flex-direction: column;
@@ -113,26 +113,26 @@
     border-radius: 4px;
   }
   
-  .App .feedEmptySpace {
+  .Home .feedEmptySpace {
     /* width: 200px;
     height: 200px; */
     flex: 1;
     /* border: 2px green dashed; */
   }
   
-  .App .selfBox {
+  .Home .selfBox {
     flex-direction: row;
     height: 12vh;
     border: 2px goldenrod solid;
   }
   
-  .App .suggestionsBox {
+  .Home .suggestionsBox {
     flex-direction: column;
     height: 32vh;
     border: 2px goldenrod solid;
   }
   
-  .App .logo {
+  .Home .logo {
     flex: 1;
     max-height: 2vh;
     max-width: 2vh;
