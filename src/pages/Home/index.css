@@ -1,0 +1,143 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: grey;
+    color: gold; */
+    height: 100vh;
+  }
+  
+  .App header {
+    display: flex;
+    /* font-family: 'Inter', sans-serif;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: #ce0e2e;*/
+    justify-content: center;
+    align-items: center;
+    /* height: 150px; */
+    box-shadow: 8px 8px 16px #767696;
+    border: 2px black solid;
+    border-radius: 4px;
+    height: 6vh;
+    width: 100vw;
+    /* border: 2px red solid; */
+  }
+  
+  .App .mainContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100vw;
+    /* border: 2px red solid; */
+  }
+  
+  .App .leftColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1.4;
+    /* border: 2px orange solid; */
+  }
+  
+  .App .rightColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* border: 2px orange solid; */
+  }
+  
+  
+  .App .friendsBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 16vh;
+    /* border: 2px goldenrod solid; */
+  }
+  
+  .App .friendsEmptySpace {
+    /* width: 200px;
+    height: 200px; */
+    flex: 1;
+    height: 100%;
+    /* border: 2px green dashed; */
+  }
+  
+  .App .friendsHeadlineContainer {
+    display: flex;
+    width: 8vh;
+    box-shadow: 8px 8px 16px #767696;
+      border: 2px black solid;
+    border-radius: 4px;
+    width: 660px;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .App .friendsElementBox {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    max-width: 7vh;
+    margin-top: 4px;
+    margin-bottom: 1px;
+  
+    /* margin-left: 1vh;
+    margin-right: 1vh; */
+    /* border: 2px green solid; */
+  }
+  
+  .App .friendsElementBox p {
+    margin-bottom: 4px;
+  }
+  
+  .App .feedBox {
+    /* flex-direction: row; */
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    /* border: 2px goldenrod solid; */
+  }
+  
+  .App .feedElementBox {
+    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    margin-bottom: 2.5vh;
+    box-shadow: 8px 8px 16px #767696;
+    border: 2px black solid;
+    border-radius: 4px;
+  }
+  
+  .App .feedEmptySpace {
+    /* width: 200px;
+    height: 200px; */
+    flex: 1;
+    /* border: 2px green dashed; */
+  }
+  
+  .App .selfBox {
+    flex-direction: row;
+    height: 12vh;
+    border: 2px goldenrod solid;
+  }
+  
+  .App .suggestionsBox {
+    flex-direction: column;
+    height: 32vh;
+    border: 2px goldenrod solid;
+  }
+  
+  .App .logo {
+    flex: 1;
+    max-height: 2vh;
+    max-width: 2vh;
+  }
+  
+  .photo-container img {
+    width: 90%;
+  }
