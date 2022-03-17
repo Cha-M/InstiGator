@@ -9,18 +9,32 @@
     height: 100vh;
 }
 
+.Login button {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #767696;
+    color: white;
+}
+.Login input {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 2vh;
+}
+
 .Login .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 30%;
     /* border: 2px dashed green; */
 }
 
 .Login .title p {
     flex: 1;
     line-height: 0.4em;
+    margin-bottom: 40%;
 }
 
 .Login .title img {
@@ -74,23 +88,10 @@
     box-shadow: 8px 8px 16px #767696;
     border: 2px black solid;
     border-radius: 4px;
-    width: 660px;
-    height: 890px;
+    width: 495px;
+    height: 670px;
     align-items: center;
-    justify-content: space-around;
-}
-
-.Login .friendsElementBox {
-    display: flex;
-    flex-direction: column;
-    height: 10vh;
-    max-width: 7vh;
-    margin-top: 4px;
-    margin-bottom: 1px;
-
-    /* margin-left: 1vh;
-    margin-right: 1vh; */
-    /* border: 2px green solid; */
+    /* justify-content: space-around; */
 }
 
 .Login .form {

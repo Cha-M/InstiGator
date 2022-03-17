@@ -1,14 +1,16 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import './index.css';
 import logo from "../../Alligator.svg";
 import { useState } from "react";
+import { Navigate } from 'react-router-dom';
 import { createUser, login } from "../../utils";
 
-export const Login = ({setUser}) => {
+export const Login = ({user, setUser}) => {
     const [username, setUsername] = useState();
     const [email, setEmail] = useState();
     const [pass, setPass] = useState();
     const [bool, setBool] = useState(false);
+
     //a state and a setter
     //usestate accepts an initial value
   
@@ -28,9 +30,10 @@ export const Login = ({setUser}) => {
       }
     };
 
+
     return (
         <div className="Login">
-
+            {user && <Navigate to="/Home" />}
                 <div className="loginFormContainer">
                     <div className="title">
                         <img src={logo} alt="An alligator" className="logo"/>

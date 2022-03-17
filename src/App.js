@@ -11,17 +11,18 @@ const App = () => {
   const [user, setUser] = useState();
   
   useEffect(() => {
-    tokenLogin(setUser);
-  },[]);
-
+    // tokenLogin(setUser);
+    console.log(user);
+  },[user]);
+  
   return (
     <BrowserRouter>
       {/* {!userIn ? <Navigate to ="/Home" /> : <Navigate to = "/" />} */}
-      {!user ? <Navigate to ="/" /> : <Navigate to = "/Home" />}
+      {/* {!user && console.log("hello")} */}
     
       <Routes>
-        <Route path = "/" element = {<Login setUser={setUser}/>}/>
-        <Route path = "/Home" element = {<Home />}/>
+        <Route path = "/" element = {<Login user={user} setUser={setUser} />}/>
+        <Route path = "/Home" element = {<Home user={user} />}/>
       </Routes>
     </BrowserRouter>
   )
