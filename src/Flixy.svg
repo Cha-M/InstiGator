@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="136.68373mm"
+   height="89.141563mm"
+   viewBox="0 0 136.68373 89.141563"
+   version="1.1"
+   id="svg1438"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Desk-1.svg">
+  <defs
+     id="defs1432" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-38.159867"
+     inkscape:cy="150.82491"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2001"
+       spacingx="2.6458333"
+       spacingy="2.6458333"
+       originx="-325.82872"
+       originy="-199.13612" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1435">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-325.82872,-199.13612)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:105.833px;line-height:1.25;font-family:sans-serif;fill:#00000a;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="314.09821"
+       y="280.8363"
+       id="text2005"><tspan
+         sodipodi:role="line"
+         id="tspan2003"
+         x="314.09821"
+         y="280.8363"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:105.833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583;fill:#00000a;fill-opacity:1;">🎞️</tspan></text>
+    <circle
+       style="fill:#000005;stroke-width:0.264583;fill-opacity:1"
+       id="path2007"
+       cx="358.41641"
+       cy="234.83717"
+       r="5.2916665" />
+    <circle
+       style="fill:#000005;stroke-width:0.264583;fill-opacity:1"
+       id="circle2029"
+       cx="412.39133"
+       cy="234.83717"
+       r="5.2916665" />
+    <rect
+       style="fill:#000000;stroke-width:0.418342"
+       id="rect2041"
+       width="39.6875"
+       height="15.875"
+       x="367.77081"
+       y="267.22916" />
+    <path
+       id="path2033"
+       style="fill:#ffffff;stroke-width:0.165096"
+       d="m 376.13429,266.35448 a 13.207709,10.731263 17.083079 0 0 -0.13081,0.39158 13.207709,10.731263 17.083079 0 0 9.47258,14.13765 13.207709,10.731263 17.083079 0 0 15.77737,-6.37792 13.207709,10.731263 17.083079 0 0 0.11171,-0.39745 l -6.32174,-1.94277 a 6.6038586,5.3656352 17.083079 0 1 -0.10236,0.4003 6.6038586,5.3656352 17.083079 0 1 -7.88869,3.18898 6.6038586,5.3656352 17.083079 0 1 -4.73629,-7.06885 6.6038586,5.3656352 17.083079 0 1 0.14006,-0.38873 z" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="path2045"
+       cx="355.86459"
+       cy="233.09793"
+       r="1.3229166" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="path2045-0"
+       cx="409.83972"
+       cy="233.09801"
+       r="1.3229166" />
+  </g>
+</svg>

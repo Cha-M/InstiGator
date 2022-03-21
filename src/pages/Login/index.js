@@ -37,7 +37,7 @@ export const Login = ({user, setUser}) => {
                 <div className="loginFormContainer">
                     <div className="title">
                         <img src={logo} alt="An alligator" className="logo"/>
-                        <p>InstiGator</p>
+                        <h2>InstiGator</h2>
                     </div>
                     <form onSubmit={submitHandler}>
                         <div>

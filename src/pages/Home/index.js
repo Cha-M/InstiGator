@@ -3,8 +3,11 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Photos } from "../../fetchAPI";
 import './index.css';
 import logo from "../../Alligator.svg";
+import cog from "../../Cog.svg";
+import head from "../../Head.svg";
+import { deleteUser } from '../../utils';
 
-export const Home = ({user}) => {
+export const Home = ({user, setUser}) => {
 
     if (!user) {
     // if (false) {
@@ -30,8 +33,19 @@ export const Home = ({user}) => {
               >
                 Learn React
               </a> */}
+              <div className="leftHeaderBar">
+
+              </div>
+              <div className="centerHeaderBar">
               <img src={logo} alt="An alligator" className="logo"/>
-              <p>InstiGator</p>
+              <h2>InstiGator</h2>
+
+              </div>
+
+              <div className="rightHeaderBar">
+                <img src={cog} alt="A cog" className="cog" onClick = {(event) => deleteUser(user, setUser)}/>
+
+              </div>
             </header>
             <div className="mainContainer">
               <div className="leftColumn">
@@ -58,8 +72,10 @@ export const Home = ({user}) => {
               </div>
               
               <div className="rightColumn">
-                <div className="selfBox">
-                  <p>User is {user}</p>
+                <div className="friendsBox">
+                    <div className="selfBox">
+                      <img src={head} alt="A human face logo" className="head"/><h2>{user}</h2>
+                    </div>
                 </div>
                 <div className="suggestionsBox">
                   <p>suggestionsBox</p>
